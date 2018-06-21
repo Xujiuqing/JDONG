@@ -2,13 +2,26 @@
 	min-width: 340px;
 	max-width: 640px;	
 	margin: 0 auto;	
-	background: #fbf5f5;
+	/*background: #E0E0E0;*/
 }
+
 /*头部*/
+.kkk{
+	
+	height: 50px;
+	background:#be1524;
+}
+.ggg{
+	width:640px;
+	position: fixed;
+	z-index: 9;
+	background:#be1524;
+	
+}
 .header{
 	height:50px;
-	width: 100%;
-	background:#be1524;
+	width: 100%;	
+	/*background:#be1524;*/
 }
 .header .icon_logo{
 	display: block;
@@ -19,6 +32,7 @@
 	margin: 10px 0 0 10px;
 	
 }
+/*input外层div*/
 .header .kuang{
 	display: block;
 	float: left;
@@ -39,6 +53,7 @@
 	outline: none;
 	padding-left:5px;
 }
+/*搜索按钮的背景定位*/
 .header .kuang .icon_search{
 	display: block;
 	float: left;
@@ -47,6 +62,7 @@
 	margin:5px 0 0 5px ;
 	background-position: -60px -109px;
 }
+/*登录*/
 .header .login{
 	display: block;
 	float: right;
@@ -57,12 +73,14 @@
 	margin-right: 8px;
 	color: #FFFFFF;
 }
+
+
  /*导航栏*/
 .nav{
 	width: 100%;
 	border-bottom: 1px solid #e0e0e0;
 	padding-bottom: 20px;
-	background: #FFFFFF;
+	background: #E0E0E0;
 
 }
 .nav ul li{
@@ -70,11 +88,12 @@
 	width: 25%;
 	height: 70px;
 }
+/*外层a标签设置成块*/
 .nav ul li a{
 	display: block;
 	width:100%;
 	height: 100%;
-	text-align: center;
+	text-align: center;/*水平居中对齐*/
 	color: #000;
 }
 .nav ul li a p:hover{
@@ -86,17 +105,21 @@
 	margin-top:20px ;
 	margin-bottom:5px ;
 }
+
+
 /*活动栏*/
 .main{
-	width: 97%;
-	margin-left:1.5% ;
-	margin-right:1.5%;
+	width: 98%;
+	margin: 0 auto;
 	margin-top: 2%;
-	background: #FFFFFF;
+	background: #E0E0E0;
+	
 }
-
+/*content1*/
 .content1{
 	width: 100%;
+	height: 249px;
+	border: 1px solid #E0E0E0;
 }
 .content1 .header-box{
 	width: 100%;
@@ -110,7 +133,7 @@
 	background: url(../img/seckill-icon.png) no-repeat;
 	background-size:18px 20px ;
 	margin-top: 5px;
-	margin-left: 5px;
+	margin-left: 10px;
 	float: left;
 }
 .content1 .header-box .box-2{
@@ -118,4 +141,63 @@
 	width: 60px;
 	font-size: 14px;
 	color: red;	
+	margin-left:15px ;
+	margin-right: 20px;
 }
+.content1 .header-box .str{
+	padding: 3px;
+	background: #333333;
+	color: #FBF5F5;
+	margin-left: 1px;
+}
+.content1 .header-box .geng{
+	display: block;
+	float: right;
+	margin-right: 10px;
+}
+.content1 .header-box2{
+	width: 100%;
+	height: 210px;
+}
+
+.content1 .header-box2 li{
+	float: left;
+	width: 33%;
+	height:210px ;
+}
+
+.content1 .header-box2 li a{
+	text-decoration: none;
+	display: block;
+	width: 100%;
+	height: 100%;
+	/*background:#D8505C;*/
+}
+.content1 .header-box2  li .img-box{
+	margin: 0 auto;
+	width: 160px;
+	height:160px;
+	/*line-height: 150px;
+	text-align: center;*/
+}
+.content1 .header-box2 .img-box img{
+	width: 160px;
+	height:160px;
+}
+.content1 .header-box2 li .now_price{
+	color: #000;
+	margin-top: 10px;
+	margin-left: 20%;
+	line-height: 15px;
+}
+.content1 .header-box2 li .old_price{
+	
+	color: #666666;
+	text-decoration: line-through;
+	line-height: 0px;
+	background: #FFFF00;
+	margin-left: 20%;
+}
+
+
+
