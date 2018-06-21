@@ -1,0 +1,15 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-size: 14px;
+	font-family: "微软雅黑";
+}
+ul{
+	list-style: none;
+}
+[class^="icon_"]{
+	background: url(../img/sprites.png) no-repeat;
+	background-size: 200px 200px;
+}
